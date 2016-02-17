@@ -2,7 +2,7 @@
 @section("content")  
         <div class="page">
         	
-          <!--Breadcrumbs-->
+{{--          <!--Breadcrumbs-->
           <div class="container space-top">
             <ol class="breadcrumb">
               <li><a href="index.html">Home</a></li>
@@ -10,7 +10,7 @@
               <li class="active">Slider Post</li>
             </ol> 
           </div><!--Breadcrumbs Close-->
-          
+    --}}      
           <!--Single Post-->
           <section class="container space-top double-space-bottom">
             <div class="row">
