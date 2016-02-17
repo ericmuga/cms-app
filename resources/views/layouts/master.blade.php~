@@ -1,0 +1,35 @@
+<!doctype html>
+<!--Conditionals for IE8-9 Support-->
+<!--[if IE]><html lang="en" class="ie"><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>M&M</title>
+    
+    <!--SEO Meta Tags-->
+    <meta name="description" content="Responsive Multipurpose HTML5 Template" />
+		<meta name="keywords" content="fashion,lifestyle,music,shopping" />
+		<meta name="author" content="8Guild" />
+    <!--Mobile Specific Meta Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href={{url("/favicon.ico")}} type="image/x-icon">
+    <link rel="icon" href={{url("/favicon.ico")}} type="image/x-icon">
+    <!--Master Slider Styles-->
+    <link href={{url("/masterslider/style/masterslider.css")}} rel="stylesheet" media="screen">
+    <!--Kedavra Stylesheet-->
+    <link href={{url("/css/styles.css")}} rel="stylesheet" media="screen">
+    <!--Kedavra Color Scheme-->
+    <link class="color-scheme" href="css/colors/color-2f8cea.css" rel="stylesheet" media="screen">
+    <!--Google Maps API-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84"></script>
+    <!--Modernizr-->
+		<script src={{url("/js/libs/modernizr.custom.js")}}></script>
+    <!--Adding Media Queries Support for IE8-->
+    <!--[if lt IE 9]>
+      <script src="js/plugins/respond.js"></script>
+    <![endif]-->
+    
+  </head>
+@yield('content')
